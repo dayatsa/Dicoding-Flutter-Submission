@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
 
 class DetailScreen extends StatelessWidget {
-  MPVCarModel model;
+  final MPVCarModel model;
   DetailScreen(this.model);
 
   @override
